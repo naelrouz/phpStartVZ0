@@ -1,7 +1,7 @@
 <?php
 $host = 'localhost';
-$user = 'root';
-$password = '';
+$user = 'test';
+$password = 'test';
 $database = 'testsite_vz';
 $con = mysqli_connect($host, $user, $password, $database);
 mysqli_set_charset($con, 'utf8');
