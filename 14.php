@@ -48,7 +48,7 @@ and open the template in the editor.
 /* Автомобиль
  *  
  */        
-        /*final*/ class Car extends Vehicle {
+   /*final*/class Car extends Vehicle { // final - запрет наследования для класса или переопределения для метода
             public $fuel;
   
             function fuelConsumption($distance) {
